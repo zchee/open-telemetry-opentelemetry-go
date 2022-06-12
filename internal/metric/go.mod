@@ -3,7 +3,7 @@ module go.opentelemetry.io/otel/internal/metric
 go 1.15
 
 require (
-	github.com/stretchr/testify v1.7.0
+	github.com/stretchr/testify v1.7.2
 	go.opentelemetry.io/otel v1.2.0
 	go.opentelemetry.io/otel/metric v0.25.0
 )
