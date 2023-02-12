@@ -3,12 +3,12 @@ module go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc
 go 1.15
 
 require (
-	github.com/stretchr/testify v1.7.0
+	github.com/stretchr/testify v1.8.1
 	go.opentelemetry.io/otel v1.2.0
 	go.opentelemetry.io/otel/exporters/otlp/otlptrace v1.2.0
 	go.opentelemetry.io/otel/sdk v1.2.0
-	go.opentelemetry.io/proto/otlp v0.11.0
-	google.golang.org/grpc v1.42.0
+	go.opentelemetry.io/proto/otlp v0.15.0
+	google.golang.org/grpc v1.53.0
 )
 
 replace go.opentelemetry.io/otel => ../../../..
