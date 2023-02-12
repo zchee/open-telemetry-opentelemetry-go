@@ -3,16 +3,16 @@ module go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetricgrpc
 go 1.15
 
 require (
-	github.com/stretchr/testify v1.7.0
+	github.com/stretchr/testify v1.8.1
 	go.opentelemetry.io/otel v1.2.0
 	go.opentelemetry.io/otel/exporters/otlp/otlpmetric v0.25.0
 	go.opentelemetry.io/otel/metric v0.25.0
 	go.opentelemetry.io/otel/sdk v1.2.0
 	go.opentelemetry.io/otel/sdk/metric v0.25.0
-	go.opentelemetry.io/proto/otlp v0.11.0
-	google.golang.org/genproto v0.0.0-20200526211855-cb27e3aa2013
-	google.golang.org/grpc v1.42.0
-	google.golang.org/protobuf v1.27.1
+	go.opentelemetry.io/proto/otlp v0.15.0
+	google.golang.org/genproto v0.0.0-20230110181048-76db0878b65f
+	google.golang.org/grpc v1.53.0
+	google.golang.org/protobuf v1.28.1
 )
 
 replace go.opentelemetry.io/otel => ../../../..
